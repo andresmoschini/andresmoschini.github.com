@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Adapted by Andres Moschini
+title : Andrés Moschini
+tagline: My Blog
 author :
   name : Andres Moschini
   email : andresmoschini@gmail.com
@@ -26,7 +26,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://andresmoschini.github.com/jekyll-bootstrap-ms
+production_url : http://andresmoschini.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -58,7 +58,7 @@ JB :
   
   # MS: BASE_PATH : false
   # MS: set to `false` when deploy as GitHub Pages (http://username.github.com)
-  BASE_PATH : /jekyll-bootstrap-ms
+  BASE_PATH : false
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
