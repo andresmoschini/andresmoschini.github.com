@@ -73,7 +73,7 @@ $ ruby dk.rb install
 Desde _Git bash_ instalar Jekyll: 
 
 {% highlight bash %}
-$ gem install jekyll`
+$ gem install jekyll
 {% endhighlight %}
 
 
