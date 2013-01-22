@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /img/posts/2013-01-21-my-menu-invitacion.jpg
 category : MyMenu
 tags : [selftraining, typescript, javascript, commonjobs]
 title: My Menu - Invitación
