@@ -10,12 +10,12 @@ Luego de desahogarme en un [post anterior][], continué investigando y probando 
 [La idea][] es interesante: preparamos los fuentes jekyll del sitio y los post, luego GitHub se encarga de generar el sitio HTML. Los fuentes de posts son archivos HTML con Liquid o Markdown y tenemos total libertad en cuanto a la estructura del sitio y el contenido. Además, no tenemos que lidiar con esos editores de texto online pseudo WYSIWYG ya que trabajamos con archivos de texto y la publicación la realizamos con nuestro sistema de control de versiones preferido: **Git**.
 
 
-## Intento 1 - Preparar un sitio desde cero
+### Intento 1 - Preparar un sitio desde cero
 
 En principio intenté preparar un sitio desde cero, o copiando otros como el de [Eric Jones][]. Dado mi escaso conocimiento de _Ruby_, _Jekyll_ y _Liquid_, creo que no fue una buena elección ya que la estructura no resultó la mejor y algunos literales como la URL base del sitio quedaron repartidos por todo el código. De cualquier manera, rescaté la experiencia y unos snippets de código que utilicé luego.
 
 
-## Intento 2 - Octopress
+### Intento 2 - Octopress
 
 [Octopress][] está muy bien, es muy completo y tiene buena terminación. 
 
@@ -24,12 +24,12 @@ Pero, el sitio no es generado por GitHub sino que cuenta con unos scripts para g
 Como en el caso anterior, Octopress será una buena _cantera_ para extraer ejemplos, snippets e ideas para utilizar.
 
 
-## Intento 3 - Jekyll-Bootstrap
+### Intento 3 - Jekyll-Bootstrap
 
 [Jekyll-Bootstrap][] resultó ser la opción elegida. Tiene un diseño modular, con templates y helpers. No está tan pulido como Octopress, pero es un buen punto de partida para comenzar a personalizar el sitio.
 
 
-## Mi prueba de concepto
+### Mi prueba de concepto
 
 El objetivo era que las mejoras en estilos, templates y layout no se mezclen con la instancia del sitio, de manera de que se puedan utilizar en otros blogs.
 
@@ -37,20 +37,20 @@ Preparé un repositorio [Jekyll-Bootstrap-MS][], basado en Jekyll-Bootstrap, con
 
 Por otro lado, creé otro [repositorio][andresmoschini blog sources] para mi [blog personal][andresmoschini blog] basado en el anterior. Aquí publicaré mis posts, realizaré cambios puntuales en el layout e ire mergeando las mejoras realizadas en Jekyll-Bootstrap-MS.
 
-## Para probar Jekyll-Bootstrap-MS desde GitHub
+### Para probar Jekyll-Bootstrap-MS desde GitHub
 
 El [branch gh-pages de Jekyll-Bootstrap-MS][] está publicado en
 [http://makingsense.github.com/jekyll-bootstrap-ms](http://makingsense.github.com/jekyll-bootstrap-ms). Es posible realizar un [Fork de este repositorio][Fork de Jekyll-Bootstrap-MS] y probarlo con la propia cuenta de GitHub, sin necesidad de descargar nada, utilizando las herramientas provistas por GitHub.
 
-## Para probar Jekyll-Bootstrap-MS localmente en Windows
+### Para probar Jekyll-Bootstrap-MS localmente en Windows
 
-### Requistos
+#### Requistos
 
-#### Cliente Git
+##### Cliente Git
 
 Yo utilizó [Git Extensions][] que ya incluye MINGW y Git Bash. 
 
-#### Instalar de Ruby
+##### Instalar de Ruby
 
 1. Desde [Ruby Installer][] descargar e instalar la última versión de Ruby.
 2. Verificar que Ruby esté en el Path o agregarlo.
@@ -63,12 +63,12 @@ $ ruby dk.rb init
 $ ruby dk.rb install
 {% endhighlight %}
 
-#### Instalar Python (requerido si hay páginas con resaltado de sintaxis)
+##### Instalar Python (requerido si hay páginas con resaltado de sintaxis)
 
 1. [Descargar Python 2.7][] e instalar
 2. Verificar que Python esté en el Path o agregarlo.
 
-#### Instalar Jekyll
+##### Instalar Jekyll
 
 Desde _Git bash_ instalar Jekyll: 
 
@@ -77,7 +77,7 @@ $ gem install jekyll
 {% endhighlight %}
 
 
-### Descargar Jekyll-Bootstrap-MS
+#### Descargar Jekyll-Bootstrap-MS
 
 Desde _Git bash_:
 
@@ -85,7 +85,7 @@ Desde _Git bash_:
 $ git clone https://github.com/MakingSense/jekyll-bootstrap-ms.git
 {% endhighlight %}
 
-### Ejecutar Jekyll
+#### Ejecutar Jekyll
 
 {% highlight bash %}
 $ cd jekyll-bootstrap-ms
@@ -94,7 +94,7 @@ $ jekyll --server
 
 Abrir [http://localhost:4000](http://localhost:4000) en el navegador
 
-## Pendiente
+### Pendiente
 
 Algunas posibles mejoras (ver [board en trello][]):
 
@@ -105,7 +105,7 @@ Algunas posibles mejoras (ver [board en trello][]):
 * Mejorar la utilización de Twitter Bootstrap, por ejemplo utilizando `fluid rows`
 * Personalizar Twitter Bootstrap y los estilos.
 
-## Invitación
+### Invitación
 
 Creo que este es el motor ideal para un blog de desarrolladores de software. Espero su feedback, críticas, refutaciones, consultas o _pull requests_ en [Jekyll-Bootstrap-MS][].
 
