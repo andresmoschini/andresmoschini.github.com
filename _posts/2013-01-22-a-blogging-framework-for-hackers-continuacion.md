@@ -55,12 +55,13 @@ Yo utilizó [Git Extensions][] que ya incluye MINGW y Git Bash.
 1. Desde [Ruby Installer][] descargar e instalar la última versión de Ruby.
 2. Verificar que Ruby esté en el Path o agregarlo.
 3. También desde [Ruby Installer][] descargar el Development Kit, descomprimirlo.
+4. Desde _Git bash_ ejecutar:
 
-Desde _Git bash_ ejecutar:
-
-    $ cd C:/RubyDevKit
-    $ ruby dk.rb init
-    $ ruby dk.rb install
+{% highlight bash %}
+$ cd C:/RubyDevKit
+$ ruby dk.rb init
+$ ruby dk.rb install
+{% endhighlight %}
 
 #### Instalar Python (requerido si hay páginas con resaltado de sintaxis)
 
@@ -69,19 +70,27 @@ Desde _Git bash_ ejecutar:
 
 #### Instalar Jekyll
 
-Desde _Git bash_ instalar Jekyll: `gem install jekyll`
+Desde _Git bash_ instalar Jekyll: 
+
+{% highlight bash %}
+$ gem install jekyll`
+{% endhighlight %}
 
 
 ### Descargar Jekyll-Bootstrap-MS
 
 Desde _Git bash_:
 
-    $ git clone https://github.com/MakingSense/jekyll-bootstrap-ms.git
+{% highlight bash %}
+$ git clone https://github.com/MakingSense/jekyll-bootstrap-ms.git
+{% endhighlight %}
 
 ### Ejecutar Jekyll
 
-    $ cd jekyll-bootstrap-ms
-    $ jekyll --server
+{% highlight bash %}
+$ cd jekyll-bootstrap-ms
+$ jekyll --server
+{% endhighlight %}
 
 Abrir [http://localhost:4000](http://localhost:4000) en el navegador
 
